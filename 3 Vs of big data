@@ -1,4 +1,4 @@
 3 Vs big data
-1.variety
-2.volume
-3.velocity
+1.variety : heterogenous data can be store.
+2.volume: have a large capacity of storing data. Stores upto petabyte
+3.velocity: have a high speed of response.
