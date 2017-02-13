@@ -1,0 +1,19 @@
+Need
+1.Can store huge size of data
+2.Process the data efficently
+3.Recover the crashing of machines automatically
+4.Store heterogenous data
+5.Cost effective, flexible and less complex
+
+Working 
+A user/application can submit a job to the Hadoop (a hadoop job client) for required process by specifying
+the location of the input and output files in the distributed file system.
+The java classes in the form of jar file containing the implementation of map and reduce functions.
+The job configuration by setting different parameters specific to the job.
+
+The Hadoop job client then submits the job (jar/executable etc) and configuration to the JobTracker which then 
+assumes the responsibility of distributing the software/configuration to the slaves, scheduling tasks and monitoring them,
+providing status and diagnostic information to the job-client.
+
+The TaskTrackers on different nodes execute the task as per MapReduce implementation and output of the reduce function is stored 
+into the output files on the file system.
