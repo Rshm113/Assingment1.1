@@ -1,0 +1,3 @@
+Horizontal Scaling:It divides the data set and distributes the data sets over multiple servers or shrads.Each shrad is an independent data-
+base and collectively the shrads make up a logical database.
+Vertical Scaling:It means adding more CPU power and storage resource to a single instance.
